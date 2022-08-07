@@ -57,11 +57,28 @@ struct ContentView: View {
                         HStack(spacing: 26) {
                             ForEach(0..<5) {i in
                                 ToyCard(imageName: "mockup-graphics-aUkYaG12Dgs-unsplash")
+                                    .padding(.bottom, 65)
                             }
                         }.padding(.horizontal)
                     }
                 }
             }
+            HStack {
+                Image("icons8-home-30")
+                    .frame(maxWidth: .infinity)
+                Image("icons8-paper-plane-30")
+                    .frame(maxWidth: .infinity)
+                Image("icons8-scanner-30")
+                    .frame(maxWidth: .infinity)
+                Image("icons8-person-30")
+                    .frame(maxWidth: .infinity)
+            }
+            .padding()
+            .background(Color.white)
+            .clipShape(Capsule())
+            .padding(.horizontal)
+            .shadow(color: Color.black.opacity(0.45), radius: 7, x: 0, y: 8)
+            .frame(maxHeight: .infinity, alignment: .bottom)
         }
     }
 }
