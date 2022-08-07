@@ -11,6 +11,9 @@
 		2DCFDE27289FBC0200E86AF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFDE26289FBC0200E86AF9 /* ContentView.swift */; };
 		2DCFDE29289FBC0400E86AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFDE28289FBC0400E86AF9 /* Assets.xcassets */; };
 		2DCFDE2C289FBC0400E86AF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFDE2B289FBC0400E86AF9 /* Preview Assets.xcassets */; };
+		2DCFDE37289FBD2100E86AF9 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFDE34289FBD2000E86AF9 /* Merriweather-Light.ttf */; };
+		2DCFDE38289FBD2100E86AF9 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFDE35289FBD2000E86AF9 /* Merriweather-Regular.ttf */; };
+		2DCFDE39289FBD2100E86AF9 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFDE36289FBD2100E86AF9 /* Merriweather-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		2DCFDE26289FBC0200E86AF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DCFDE28289FBC0400E86AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCFDE2B289FBC0400E86AF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DCFDE32289FBC8B00E86AF9 /* Just-Shopping-UI-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Just-Shopping-UI-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2DCFDE34289FBD2000E86AF9 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		2DCFDE35289FBD2000E86AF9 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		2DCFDE36289FBD2100E86AF9 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,8 @@
 		2DCFDE23289FBC0200E86AF9 /* Just Shopping UI App */ = {
 			isa = PBXGroup;
 			children = (
+				2DCFDE33289FBCBA00E86AF9 /* Fonts */,
+				2DCFDE32289FBC8B00E86AF9 /* Just-Shopping-UI-App-Info.plist */,
 				2DCFDE24289FBC0200E86AF9 /* Just_Shopping_UI_AppApp.swift */,
 				2DCFDE26289FBC0200E86AF9 /* ContentView.swift */,
 				2DCFDE28289FBC0400E86AF9 /* Assets.xcassets */,
@@ -65,6 +74,16 @@
 				2DCFDE2B289FBC0400E86AF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DCFDE33289FBCBA00E86AF9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2DCFDE36289FBD2100E86AF9 /* Merriweather-Bold.ttf */,
+				2DCFDE34289FBD2000E86AF9 /* Merriweather-Light.ttf */,
+				2DCFDE35289FBD2000E86AF9 /* Merriweather-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCFDE37289FBD2100E86AF9 /* Merriweather-Light.ttf in Resources */,
 				2DCFDE2C289FBC0400E86AF9 /* Preview Assets.xcassets in Resources */,
+				2DCFDE39289FBD2100E86AF9 /* Merriweather-Bold.ttf in Resources */,
+				2DCFDE38289FBD2100E86AF9 /* Merriweather-Regular.ttf in Resources */,
 				2DCFDE29289FBC0400E86AF9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +294,7 @@
 				DEVELOPMENT_TEAM = 4FU7LRDQZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Just-Shopping-UI-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +324,7 @@
 				DEVELOPMENT_TEAM = 4FU7LRDQZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Just-Shopping-UI-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
