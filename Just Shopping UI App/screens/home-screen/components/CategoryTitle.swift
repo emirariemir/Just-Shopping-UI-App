@@ -26,6 +26,6 @@ struct CategoryTitle: View {
 
 struct CategoryTitle_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryTitle()
+        CategoryTitle(text: "Test", isActive: true)
     }
 }

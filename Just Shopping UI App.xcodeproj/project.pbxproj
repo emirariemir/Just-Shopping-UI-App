@@ -20,6 +20,9 @@
 		2DCFDE4428A0232100E86AF9 /* SearchFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFDE4328A0232100E86AF9 /* SearchFieldView.swift */; };
 		2DCFDE4628A0233C00E86AF9 /* CategoryTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFDE4528A0233C00E86AF9 /* CategoryTitle.swift */; };
 		2DCFDE4828A0235B00E86AF9 /* ToyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFDE4728A0235B00E86AF9 /* ToyCard.swift */; };
+		2DCFDE4C28A31FA600E86AF9 /* ToyDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFDE4B28A31FA600E86AF9 /* ToyDetailScreen.swift */; };
+		2DCFDE4E28A31FC600E86AF9 /* BuyNowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFDE4D28A31FC600E86AF9 /* BuyNowButton.swift */; };
+		2DCFDE5028A31FE000E86AF9 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFDE4F28A31FE000E86AF9 /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		2DCFDE4328A0232100E86AF9 /* SearchFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldView.swift; sourceTree = "<group>"; };
 		2DCFDE4528A0233C00E86AF9 /* CategoryTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTitle.swift; sourceTree = "<group>"; };
 		2DCFDE4728A0235B00E86AF9 /* ToyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyCard.swift; sourceTree = "<group>"; };
+		2DCFDE4B28A31FA600E86AF9 /* ToyDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyDetailScreen.swift; sourceTree = "<group>"; };
+		2DCFDE4D28A31FC600E86AF9 /* BuyNowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyNowButton.swift; sourceTree = "<group>"; };
+		2DCFDE4F28A31FE000E86AF9 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 		2DCFDE3A28A0224900E86AF9 /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				2DCFDE4928A31F8000E86AF9 /* detail-screen */,
 				2DCFDE3D28A0228F00E86AF9 /* home-screen */,
 			);
 			path = screens;
@@ -124,6 +131,24 @@
 				2DCFDE4328A0232100E86AF9 /* SearchFieldView.swift */,
 				2DCFDE4528A0233C00E86AF9 /* CategoryTitle.swift */,
 				2DCFDE4728A0235B00E86AF9 /* ToyCard.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		2DCFDE4928A31F8000E86AF9 /* detail-screen */ = {
+			isa = PBXGroup;
+			children = (
+				2DCFDE4A28A31F8900E86AF9 /* components */,
+				2DCFDE4B28A31FA600E86AF9 /* ToyDetailScreen.swift */,
+			);
+			path = "detail-screen";
+			sourceTree = "<group>";
+		};
+		2DCFDE4A28A31F8900E86AF9 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				2DCFDE4D28A31FC600E86AF9 /* BuyNowButton.swift */,
+				2DCFDE4F28A31FE000E86AF9 /* DescriptionView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -202,10 +227,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCFDE27289FBC0200E86AF9 /* ContentView.swift in Sources */,
+				2DCFDE4C28A31FA600E86AF9 /* ToyDetailScreen.swift in Sources */,
 				2DCFDE4228A022FC00E86AF9 /* BigTitleView.swift in Sources */,
 				2DCFDE25289FBC0200E86AF9 /* Just_Shopping_UI_AppApp.swift in Sources */,
 				2DCFDE4028A022D300E86AF9 /* TopBarView.swift in Sources */,
+				2DCFDE4E28A31FC600E86AF9 /* BuyNowButton.swift in Sources */,
 				2DCFDE4628A0233C00E86AF9 /* CategoryTitle.swift in Sources */,
+				2DCFDE5028A31FE000E86AF9 /* DescriptionView.swift in Sources */,
 				2DCFDE3C28A0225D00E86AF9 /* HomeScreen.swift in Sources */,
 				2DCFDE4828A0235B00E86AF9 /* ToyCard.swift in Sources */,
 				2DCFDE4428A0232100E86AF9 /* SearchFieldView.swift in Sources */,
